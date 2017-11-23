@@ -3,9 +3,6 @@ package com.developer.tanawutl3.newversion;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.github.javiersantos.appupdater.AppUpdater;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-
 public class MainActivity extends AppCompatActivity {
 
     String TAG = "updating";
@@ -21,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
 //        Intent intent = new Intent(Intent.ACTION_VIEW , Uri.parse(myapk_link));
 //        startActivity(intent);
 
-        AppUpdater appUpdater = new AppUpdater(this)
-                .setUpdateFrom(UpdateFrom.GITHUB)
-                .setGitHubUserAndRepo("sirl3oss", "Newversion");
-        appUpdater.start();
+//        AppUpdater appUpdater = new AppUpdater(this)
+//                .setUpdateFrom(UpdateFrom.GITHUB)
+//                .setGitHubUserAndRepo("sirl3oss", "Newversion");
+//        appUpdater.start();
     }
 }
